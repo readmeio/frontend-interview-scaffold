@@ -1,0 +1,25 @@
+{
+  "name": "readme-frontend-interview-scaffolding",
+  "version": "0.0.0",
+  "description": "a simple Express + React app scaffold for ReadMe's front end technical session",
+  "scripts": {
+    "dev.client": "parcel watch client/index.html",
+    "dev.server": "tsx watch server/index.ts",
+    "dev": "concurrently -c cyan,magenta npm:dev.*",
+    "start": "tsx server/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "concurrently": "^8.2.2",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "tsx": "^4.16.2"
+  }
+}

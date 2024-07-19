@@ -1,0 +1,10 @@
+# Build Files
+#
+dist
+.parcel-*
+
+# System Files
+#
+node_modules
+.vscode
+.DS_*
