@@ -1,6 +1,4 @@
 {
-  "name": "readme-frontend-interview-scaffolding",
-  "version": "0.0.0",
   "description": "a simple Express + React app scaffold for ReadMe's front end technical session",
   "scripts": {
     "dev.client": "parcel watch client/index.html",
@@ -8,8 +6,6 @@
     "dev": "concurrently -c cyan,magenta npm:dev.*",
     "start": "tsx server/index.ts"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "react": "^18.3.1",
